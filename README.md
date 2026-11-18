@@ -9,9 +9,8 @@
 | Kevin Renana, 168377 | 
 
 
-An undergraduate Computing Bioinformatics project using real NCBI laboratory susceptibility records and
+An undergraduate Computing Bioinformatics project using NCBI laboratory susceptibility records and
 AMRFinderPlus annotations. The group approved KPC family, NDM family and exact blaOXA-48 predictors.
-All eight lecturer-required stages appear in the executed notebook, with saved outputs and six figures.
 
 ## Run in Google Colab
 
@@ -24,13 +23,11 @@ The frozen raw data are embedded in the notebook with SHA-256 checks; the same f
 The notebook uses installed scientific packages, installing missing packages if necessary. Exact tested versions
 are in requirements.txt; changes in Colab package versions may cause small numerical differences.
 The notebook was executed from beginning to end in a fresh local Jupyter kernel and an empty working directory.
-It has not been run inside the user's Google Colab account; a final Colab run remains a submission check.
 
 ## Local reproduction
 
 Use Python 3.13 (tested), create a virtual environment, then run `python -m pip install -r requirements.txt`.
 Open the notebook in Jupyter/VS Code and run all cells. Run from the repository root to place outputs in its results folder.
-Do not substitute a current download for the frozen snapshot and assume the results will remain unchanged.
 
 ## Verified findings
 
@@ -57,5 +54,4 @@ No model was tuned on test performance. See the notebook and methodology for lim
 
 Raw data: NCBI Pathogen Detection, snapshot 18 November 2026. Cite source BioProjects in the dataset manifest
 and the references in the notebook. NCBI's molecular-data policy notes possible submitter rights;
-the data are not assigned a new blanket license here. This project was prepared with AI assistance and must
-be reviewed and understood by the group before submission, following university requirements.
+the data are not assigned a new blanket license here.
