@@ -1,0 +1,23 @@
+variable,definition
+biosample,NCBI BioSample accession; exact join key
+assembly,NCBI genome assembly accession; genomic traceability
+target,Pathogen Detection target accession; secondary linkage check
+project,BioProject accession; provenance and study-held-out evaluation
+cluster,"NCBI PDS cluster without version, or unique BioSample if unavailable"
+cluster_known,Whether a PDS cluster was provided
+country,First geographic component; description only
+standard,"CLSI/EUCAST or missing, as submitted; edition unknown"
+phenotype,Submitted meropenem laboratory category
+y,"Target: resistant=1, susceptible=0"
+blaKPC,1=complete KPC-family call; 0=no target hit after successful analysis
+blaNDM,1=complete NDM-family call; 0=no target hit after successful analysis
+blaOXA48,1=complete exact blaOXA-48 call; 0=no exact/ambiguous target hit
+length_bp,"Provider assembly length, base pairs"
+contigs,Provider assembly contig count
+n50,"Provider contig N50, base pairs"
+amr_version,AMRFinderPlus software version
+db_version,Reference gene database version
+analysis_type,COMBINED or NUCLEOTIDE annotation mode
+calls,Unaltered list of AMRFinderPlus gene symbols and statuses
+ast_count,Number of submitted meropenem measurements for that isolate
+exclusion,First applicable exclusion reason in the prespecified QC order

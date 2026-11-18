@@ -1,0 +1,34 @@
+{
+  "initial_isolates": 1169,
+  "candidate_isolates": 807,
+  "final_isolates": 749,
+  "resistant": 371,
+  "susceptible": 378,
+  "train": 598,
+  "test": 151,
+  "preferred_cv_model": "Random Forest",
+  "highest_observed_test_f1_model": "Logistic Regression and Random Forest",
+  "preferred_test_metrics": {
+    "accuracy": 0.9006622516556292,
+    "precision": 0.9154929577464789,
+    "recall": 0.8783783783783784,
+    "f1": 0.896551724137931,
+    "balanced_accuracy": 0.9002281502281502,
+    "roc_auc": 0.9183046683046684,
+    "pr_auc": 0.9041430320317069
+  },
+  "baseline_test_metrics": {
+    "accuracy": 0.5099337748344371,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "balanced_accuracy": 0.5,
+    "roc_auc": 0.5,
+    "pr_auc": 0.4900662251655629
+  },
+  "gene_negative_resistant": 61,
+  "gene_negative_total": 407,
+  "largest_marginal_OR_gene": "blaNDM",
+  "known_cluster_overlap": 0,
+  "missing_cluster_final": 244
+}
